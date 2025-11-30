@@ -48,6 +48,8 @@ N3_CIENCIA_DADOS/
 ├── requirements.txt
 └── README.md
 
+---
+
 
 ## 3) Pipeline e Arquitetura (Parte 2)
 ### Visão geral do pipeline
