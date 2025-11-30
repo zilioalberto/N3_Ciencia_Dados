@@ -1,0 +1,40 @@
+{
+  "raw_url": "https://raw.githubusercontent.com/zilioalberto/N3_Ciencia_Dados/main/data/dataset_original/tb_mercadoimob.csv",
+  "raw_path": "/content/data/dataset_original/tb_mercadoimob.csv",
+  "out_path": "/content/data/dataset_processado_N3/base_modelagem.csv",
+  "raw_shape": [
+    9236,
+    41
+  ],
+  "after_basic_filters_shape": [
+    7780,
+    44
+  ],
+  "model_shape": [
+    7780,
+    16
+  ],
+  "features": [
+    "area",
+    "iptu",
+    "taxa_condominial",
+    "num_quartos",
+    "num_banheiros",
+    "num_suites",
+    "num_vagas_garagem",
+    "num_andares",
+    "tipo_imovel",
+    "estado_construcao",
+    "fonte",
+    "imovel_lancamento",
+    "bl_temporada",
+    "vista_mar_bin",
+    "mobiliado_bin"
+  ],
+  "target": "preco_m2",
+  "notes": [
+    "O dataset foi filtrado para tipo_negocio==Venda (se a coluna existir).",
+    "preco_m2 possui clipping por IQR para reduzir influência de outliers sem descartar linhas.",
+    "O CSV é baixado do GitHub e cacheado em RAW_PATH quando não existir localmente."
+  ]
+}
